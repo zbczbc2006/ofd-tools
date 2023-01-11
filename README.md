@@ -2,14 +2,14 @@
 ofd格式文件浏览器渲染工具，拿了[DLTech21/ofd.js](https://github.com/DLTech21/ofd.js)项目的源码，修改了一些问题后用rollup重新打包并整理了文档。如果该工具对你有帮助，请感谢原作者；如果遇到问题，也先试下`DLTech21/ofd.js`是否复现。
 ## 安装与使用
 ```bash
-npm install ofdjs --save
+npm install ofd-tools --save
 # or
-pnpm install ofdjs --save
+pnpm install ofd-tools --save
 # or
-yarn add ofdjs
+yarn add ofd-tools
 ``` 
 ```javascript
-import { parseOfdDocument, renderOfd, renderOfdByScale, setPageScale, getPageScale, digestCheck } from 'ofdjs'
+import { parseOfdDocument, renderOfd, renderOfdByScale, setPageScale, getPageScale, digestCheck } from 'ofd-tools'
 ``` 
 ## 使用说明
 ### parseOfdDocument 解析ofd文件，renderOfd 将解析后的数据转换为dom
@@ -39,7 +39,7 @@ const ofdDoms = renderOfdByScale(ofdObj)
 
 ## 简单渲染例子
 ```javascript
-import { parseOfdDocument, renderOfd } from 'ofdjs'
+import { parseOfdDocument, renderOfd } from 'ofd-tools'
 const [loading, setLoading] = useState(false);
 const ofdview = useRef(null);
 setLoading(true);
