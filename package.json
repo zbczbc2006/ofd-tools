@@ -1,6 +1,6 @@
 {
   "name": "ofd-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ofd文件的浏览器渲染工具",
   "main": "lib/ofd.cjs.js",
   "module": "lib/ofd.es.js",
