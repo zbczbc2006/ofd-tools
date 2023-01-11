@@ -1,0 +1,39 @@
+{
+  "name": "ofdjs",
+  "version": "1.0.0",
+  "description": "提供ofd文件预览功能",
+  "main": "lib/ofd.cjs.js",
+  "module": "lib/ofd.es.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "ofd"
+  ],
+  "author": "zbczbc2006",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "install": "^0.13.0",
+    "rollup": "^3.9.1"
+  },
+  "dependencies": {
+    "@lapo/asn1js": "^1.2.4",
+    "core-js": "^3.27.1",
+    "js-md5": "^0.7.3",
+    "js-sha1": "^0.6.0",
+    "jsrsasign": "^10.6.1",
+    "jszip": "^3.10.1",
+    "jszip-utils": "^0.1.0",
+    "ofd-xml-parser": "^0.0.6",
+    "sm-crypto": "^0.3.11",
+    "web-streams-polyfill": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/com:zbczbc2006/ofdjs"
+  }
+}
