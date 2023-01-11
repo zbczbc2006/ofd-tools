@@ -1,7 +1,7 @@
 {
-  "name": "ofdjs",
-  "version": "1.0.0",
-  "description": "提供ofd文件预览功能",
+  "name": "ofd-tools",
+  "version": "1.0.2",
+  "description": "ofd文件的浏览器渲染工具",
   "main": "lib/ofd.cjs.js",
   "module": "lib/ofd.es.js",
   "type": "module",
@@ -10,6 +10,9 @@
   },
   "keywords": [
     "ofd"
+  ],
+  "files": [
+    "lib"
   ],
   "author": "zbczbc2006",
   "license": "Apache-2.0",
@@ -34,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/com:zbczbc2006/ofdjs"
+    "url": "https://github.com/zbczbc2006/ofd-tools"
   }
 }
